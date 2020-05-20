@@ -1,0 +1,166 @@
+/*--------------公司信息logo---------------------------*/
+.index-logo{
+    width: 1920px;
+    height: 100px;
+    /*   border-bottom: 0.5px solid slategray;
+       margin: auto;*/
+
+}
+/*所有居中*/
+.index-logo div{
+    text-align:center;
+}
+.index-logo> div:nth-child(2){
+    font-size: 20px;
+}
+.index-hr{
+    width: 1920px;
+    margin-top: 20px;
+    border: 0.5px dashed slategray;
+}
+/*------------公司导航信息-------------------*/
+.index-nav{
+    width: 1200px;
+    height: 50px;
+    /*border: 1px solid slategray;*/
+    margin: 15px auto;
+}
+
+.index-nav ul li{
+    /*ul序号样式*/
+    list-style: none;
+    float: left;
+    /* margin: 0px 20px;*/
+    padding: 0px 0px 0px 20px;
+    text-indent: 3em;
+    font-size: 18px;
+
+}
+
+.index-nav ul li:hover{
+    color: #e69137;
+}
+
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+/*------------------上面部分--------------------------*/
+/*-------------尾部分--------------------------*/
+.index-end{
+    width: 1920px;
+    height: 600px;
+    /*border: 1px solid slategray;*/
+    float: left;
+    background-color: #2A2A42;
+}
+/*电话部分*/
+.end-phone{
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid slategray;*/
+    float: left;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.end-phone>div:first-child{
+    width: 300px;
+    border-bottom: 1px solid white;
+    color: white;
+    line-height: 30px;
+}
+.end-phone>div:first-child span{
+    font-size: 25px;
+}
+.end-phone>div:nth-child(2){
+    width: 300px;
+    border-bottom: 1px solid white;
+    color: white;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.end-phone>div:nth-child(2) span:first-child{
+    color: #C5A74F;
+    font-size: 35px;
+    line-height: 30px;
+}
+.end-phone>div:nth-child(2) span:nth-child(2){
+    font-size: 25px;
+}
+.end-phone>div:nth-child(3){
+    width: 120px;
+    height: 40px;
+    border: 1px solid #F2A53D;
+    color: #F2A53D;
+
+    text-align: center;
+    display: table-cell;
+    vertical-align:middle;
+    margin-top: 30px;
+
+}
+/*文本域部分*/
+.end-text{
+    width: 700px;
+    height: 500px;
+    /* border: 1px solid slategray;*/
+    float: left;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+}
+.end-text span{
+    font-size: 20px;
+}
+.end-text input[type=text] {
+    width: 600px;
+    background-color: #2A2A42;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    /*border: 1px solid white;*/
+
+}
+.end-text1 input[type=text]{
+    height: 100px;
+}
+.end-text div{
+    margin-top: 20px;
+}
+
+/*对提交按钮设置居中*/
+.end-text div:last-child {
+    /*width: 100px;*/
+    /*margin: auto;*/
+    display: flex;
+    justify-content: center;
+
+}
+/*对提交按钮设置*/
+.end-text input[type=button] {
+    width: 610px;
+    height: 40px;
+    float: left;
+    margin-left: -100px;
+    background-color: #D3B167;
+}
+
+/*右边微信*/
+.end-wechart{
+    width: 400px;
+    height: 500px;
+    /*border: 1px solid slategray;*/
+    float: right;
+    margin-top: 50px;
+    margin-right: 60px;
+    color: white;
+    line-height: 50px;
+}
+.end-wechart>div:nth-child(even){
+    margin-left: 20px;
+}
