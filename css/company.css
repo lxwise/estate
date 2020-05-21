@@ -1,21 +1,4 @@
 /*中间部分*/
-.company-mid{
-    height: 600px;
-    width: 1920px;
-    border: 1px solid slategray;
-    margin: auto;
-    background-image: url("../img/banner.jpg");
-    margin-top: -30px;
-}
-.company-mid-ad>div div{
-    float: left;
-    padding: 0px 10px;
-    color: white;
-}
-.company-mid-ad>div:first-child{
-    margin-left: 350px;
-    margin-top: 550px;
-}
 
 /*公司简介*/
 .mid-company-info{
